@@ -4,15 +4,7 @@ SITE
     dmg (2.0.4)
 
 GIT
-  remote: git://github.com/pivotal-sprout/sprout.git
-  path: osx
-  ref: master
-  sha: 8a384b6520e1dbc00a734bf581934fbb4cece23a
-  specs:
-    osx (0.1.0)
-
-GIT
-  remote: git://github.com/pivotal-sprout/sprout.git
+  remote: git://github.com/geoforce/sprout.git
   path: pivotal_workstation
   ref: master
   sha: 8a384b6520e1dbc00a734bf581934fbb4cece23a
@@ -26,7 +18,7 @@ GIT
       sprout-pivotal (>= 0.0.0)
 
 GIT
-  remote: git://github.com/pivotal-sprout/sprout.git
+  remote: git://github.com/geoforce/sprout.git
   path: sprout-osx-apps
   ref: master
   sha: 8a384b6520e1dbc00a734bf581934fbb4cece23a
@@ -37,7 +29,7 @@ GIT
       sprout-osx-settings (>= 0.0.0)
 
 GIT
-  remote: git://github.com/pivotal-sprout/sprout.git
+  remote: git://github.com/geoforce/sprout.git
   path: sprout-osx-base
   ref: master
   sha: 8a384b6520e1dbc00a734bf581934fbb4cece23a
@@ -45,7 +37,7 @@ GIT
     sprout-osx-base (0.1.0)
 
 GIT
-  remote: git://github.com/pivotal-sprout/sprout.git
+  remote: git://github.com/geoforce/sprout.git
   path: sprout-osx-settings
   ref: master
   sha: 8a384b6520e1dbc00a734bf581934fbb4cece23a
@@ -55,7 +47,7 @@ GIT
       sprout-osx-base (>= 0.0.0)
 
 GIT
-  remote: git://github.com/pivotal-sprout/sprout.git
+  remote: git://github.com/geoforce/sprout.git
   path: sprout-pivotal
   ref: master
   sha: 8a384b6520e1dbc00a734bf581934fbb4cece23a
@@ -63,6 +55,14 @@ GIT
     sprout-pivotal (0.1.0)
       dmg (>= 0.0.0)
       sprout-osx-base (>= 0.0.0)
+
+GIT
+  remote: git://github.com/pivotal-sprout/sprout.git
+  path: osx
+  ref: master
+  sha: 8a384b6520e1dbc00a734bf581934fbb4cece23a
+  specs:
+    osx (0.1.0)
 
 PATH
   remote: site-cookbooks/meta
