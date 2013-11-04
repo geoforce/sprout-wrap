@@ -24,5 +24,9 @@ cookbook 'sprout-pivotal',
   :path => 'sprout-pivotal'
 
 cookbook 'osx',
-  :git => 'git://github.com/pivotal-sprout/sprout.git',
+  :git => 'git://github.com/geoforce/sprout.git',
   :path => 'osx'
+
+cookbook 'sprout-osx-rbenv',
+  :git => 'git://github.com/geoforce/sprout.git',
+  :path => 'sprout-osx-rbenv'

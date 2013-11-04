@@ -5,6 +5,14 @@ SITE
 
 GIT
   remote: git://github.com/geoforce/sprout.git
+  path: osx
+  ref: master
+  sha: 63acde4b8486ca1b590683ae7174a4f91b5e86ce
+  specs:
+    osx (0.1.0)
+
+GIT
+  remote: git://github.com/geoforce/sprout.git
   path: pivotal_workstation
   ref: master
   sha: 8a384b6520e1dbc00a734bf581934fbb4cece23a
@@ -38,6 +46,15 @@ GIT
 
 GIT
   remote: git://github.com/geoforce/sprout.git
+  path: sprout-osx-rbenv
+  ref: master
+  sha: 63acde4b8486ca1b590683ae7174a4f91b5e86ce
+  specs:
+    sprout-osx-rbenv (0.1.0)
+      sprout-osx-base (>= 0.0.0)
+
+GIT
+  remote: git://github.com/geoforce/sprout.git
   path: sprout-osx-settings
   ref: master
   sha: 8a384b6520e1dbc00a734bf581934fbb4cece23a
@@ -56,14 +73,6 @@ GIT
       dmg (>= 0.0.0)
       sprout-osx-base (>= 0.0.0)
 
-GIT
-  remote: git://github.com/pivotal-sprout/sprout.git
-  path: osx
-  ref: master
-  sha: 8a384b6520e1dbc00a734bf581934fbb4cece23a
-  specs:
-    osx (0.1.0)
-
 PATH
   remote: site-cookbooks/meta
   specs:
@@ -78,6 +87,7 @@ DEPENDENCIES
   pivotal_workstation (>= 0)
   sprout-osx-apps (>= 0)
   sprout-osx-base (>= 0)
+  sprout-osx-rbenv (>= 0)
   sprout-osx-settings (>= 0)
   sprout-pivotal (>= 0)
 
